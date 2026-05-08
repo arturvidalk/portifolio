@@ -1,0 +1,40 @@
+body {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    position: relative;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.centro {
+    height: 100vh;
+    background: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-dark:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #fff;
+}
+
+.btn-outline-dark:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
