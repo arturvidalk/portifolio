@@ -22,14 +22,3 @@ body {
     align-items: center;
     text-align: center;
 }
-
-.btn-dark:hover {
-    background-color: #fff;
-    color: #000;
-    border-color: #fff;
-}
-
-.btn-outline-dark:hover {
-    background-color: #000;
-    color: #fff;
-}
